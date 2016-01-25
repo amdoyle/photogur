@@ -3,6 +3,10 @@ Rails.application.routes.draw do
   # THIS MATCHES THE HTTP REQUEST GET WITH THE URL /pictures
   # TO THE index ACTION in the PicturesController
   get 'pictures' => 'pictures#index'
+
+  post 'pictures' => 'pictures#create'
+  get 'pictures/new' => 'pictures#new'
+
   get 'pictures/:id' => 'pictures#show', as: 'picture'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
