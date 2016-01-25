@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
   # THIS MATCHES THE HTTP REQUEST GET WITH THE URL /pictures
   # TO THE index ACTION in the PicturesController
+  root 'pictures#index'
   get 'pictures' => 'pictures#index'
 
   post 'pictures' => 'pictures#create'
