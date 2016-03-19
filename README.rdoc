@@ -1,28 +1,21 @@
-== README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Photogur
 
-Things you may want to cover:
+Description
+* Basic rails clone of Imgur
+* Allows users to line to images and provide the photographers name and a title
 
-* Ruby version
+Versions
+* Ruby version 2.3.0
+* Rails version 4.2.5
 
-* System dependencies
+Gems
+* No additional gems, beyond the default gems included in rails
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Set-up
+* Instal gems
+* Migrate models
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Additional
+* No additional set-up required
