@@ -2,8 +2,8 @@
 *Photogur*
 
 Description
-* Basic rails clone of Imgur
-* Allows users to line to images and provide the photographers name and a title
+* Basic Rails app that allows users to link to images and provide the photographers name and a title
+* App includes one model for Pictures
 
 Versions
 * Ruby version 2.3.0
@@ -15,7 +15,6 @@ Gems
 Set-up
 * Instal gems
 * Migrate models
-
 
 Additional
 * No additional set-up required
