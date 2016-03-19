@@ -1,5 +1,5 @@
 
-**Photogur**
+*Photogur*
 
 Description
 * Basic rails clone of Imgur
