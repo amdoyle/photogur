@@ -13,7 +13,7 @@
 * No additional gems, beyond the default gems included in rails
 
 ###Set-up
-* Instal gems
+* Bundle install gems
 * Migrate models
 
 ###Additional
